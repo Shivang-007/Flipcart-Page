@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Html,Css,Bootstrap_exercise/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!</title>
+    <link rel="icon" type="image/x-icon" href="../Html,Css,Bootstrap_exercise/flipcart_images/flipkart_icon-icons.com_62718.png">
 </head>
 
 <body>
@@ -17,6 +18,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+     
+    <!-- Navigation Bar-->    
+
     <div class="nav_container">
         <div class="logo">
             <img src="../Html,Css,Bootstrap_exercise/flipcart_images/flipcart.png" alt="flipcart_logo">
@@ -35,13 +39,13 @@
             <button type="button" class="btn btn-light">Login</button>
         </div>
         <div class="dropdown">
-            <select id="more" name="more">
-                <option value="volvo">More</option>
-                <option value="saab">Saab</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
-            </select>
-        </div>
+            <button class="dropbtn">More <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="#">Notification</a>
+              <a href="#">Customer Care</a>
+              <a href="#">Download App</a>
+            </div>
+          </div>
         <div class="cart_container">
             <div class="cart">
                 <div class="cart_img">
@@ -54,11 +58,17 @@
         </div>
 
     </div>
+
+
+    <!--  Catagories -->
+
+
     <div class="img_container">
-        <div class="catagory">
+       <div class="catagory">
             <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Top_offers.png" alt="">
             <span>Top Offers</span>
         </div>
+        
         <div class="catagory">
             <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Grocery.png" alt="">
             <span>Groccery</span>
@@ -92,12 +102,17 @@
             <span>Beauty,Toys & More</span>
         </div>
     </div>
+
+    <!--  Deal Of the Day -->
+
+
+    <div class="main_container">
     <div class="deal_container">
         <div class="deal_header">
             <h2>Deals of the Day</h2>
             <img src="../Html,Css,Bootstrap_exercise/flipcart_images/time.svg" height="17px" width="17px" alt="">
             <small>22:07:36 Left</small>
-            <button type="button">VIEW ALL</button>
+            <button type="button" style="margin-right: 240px;">VIEW ALL</button>
         </div>
         <hr>
         <div class="deal_body">
@@ -108,90 +123,103 @@
                 <span class="desc">Buy Now!</span>
             </div>
             <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Bike_tyres.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
-                <span class="desc">Buy Now!</span>
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/toy.jpeg" alt="">
+                <span class="title">Outdoor Toys</span>
+                <span class="offer">Min 30% off</span>
+                <span class="desc">Knockout Deals</span>
             </div>
             <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Curtains.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
-                <span class="desc">Buy Now!</span>
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/watch.jpeg" alt="">
+                <span class="title">Titan,Casio Watches</span>
+                <span class="offer">Extraa 10% off</span>
+                <span class="desc">Shop Now!</span>
             </div>
             <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/bat.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Shoes.jpeg" alt="">
+                <span class="title">PUMA Sports</span>
+                <span class="offer">Flat 20% off</span>     
                 <span class="desc">Buy Now!</span>
             </div>
             <div class="deal_catagory">
                 <img src="../Html,Css,Bootstrap_exercise/flipcart_images/jackat.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
-                <span class="desc">Buy Now!</span>
+                <span class="title">Denim Jackets</span>
+                <span class="offer">from ₹300</span>
+                <span class="desc">Lowest Price Ever!</span>
             </div>
             <div class="deal_catagory">
                 <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Food.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
+                <span class="title">Food Packats</span>
+                <span class="offer">Min 50% off</span>
                 <span class="desc">Buy Now!</span>
             </div>
             <div class="deal_catagory">
                 <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Sarees.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
-                <span class="desc">Buy Now!</span>
+                <span class="title">Sarees</span>
+                <span class="offer">Min 37% off</span>
+                <span class="desc">Biggest Sale!</span>
             </div>
         </div>
     </div>
+    <div class="main-ad-div" style="flex:0 0 248px;max-width:248px;padding:0px 0px 4px 0px">
+        <div class="ad-div">
+            <a href="">
+                <div class="ad">
+                    <img class="ad-img" src="../Html,Css,Bootstrap_exercise/flipcart_images/ads.jpeg" alt="boAt">
+                </div>
+            </a></div>
+    </div>
+</div>
+
+<!--  Best Deal On Electronics  -->
+
+
     <div class="deal_container">
         <div class="deal_header">
-            <h2>Deals of the Day</h2>
+            <h2>Best Deal on Electronics</h2>
             <button type="button">VIEW ALL</button>
         </div>
         <hr>
         <div class="deal_body">
             <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Gas.jpg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/tv.jpeg" alt="">
+                <span class="title">SONY LED</span>
+                <span class="offer">Min 10% off</span>
+                <span class="desc">Diwali Dhamaka!</span>
+            </div>
+            <div class="deal_catagory">
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/cover.jpeg" alt="">
+                <span class="title">Back Cover</span>
+                <span class="offer">from ₹100</span>
+                <span class="desc">in all colors!</span>
+            </div>
+            <div class="deal_catagory">
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/headphone.jpeg" alt="">
+                <span class="title">Boat Headphone</span>
+                <span class="offer">Extraa 17% off</span>
+                <span class="desc">Bass Boosted!</span>
+            </div>
+            <div class="deal_catagory">
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/camera.jpeg" alt="">
+                <span class="title">Nikon DSLR</span>
+                <span class="offer">Flat 30%</span>
                 <span class="desc">Buy Now!</span>
             </div>
             <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Bike_tyres.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/keyboard.jpeg" alt="">
+                <span class="title">Logitech Keyboard</span>
+                <span class="offer">Min 20% off</span>
+                <span class="desc">Shop Now!</span>
+            </div>
+            <div class="deal_catagory">
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/realme_band.jpeg" alt="">
+                <span class="title">Realme Band</span>
+                <span class="offer">Upto 20% Cashback</span>
                 <span class="desc">Buy Now!</span>
             </div>
             <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Curtains.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
-                <span class="desc">Buy Now!</span>
-            </div>
-            <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/bat.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
-                <span class="desc">Buy Now!</span>
-            </div>
-            <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/jackat.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
-                <span class="desc">Buy Now!</span>
-            </div>
-            <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Food.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
-                <span class="desc">Buy Now!</span>
-            </div>
-            <div class="deal_catagory">
-                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/Sarees.jpeg" alt="">
-                <span class="title">Gas</span>
-                <span class="offer">Min 17% off</span>
+                <img src="../Html,Css,Bootstrap_exercise/flipcart_images/bp_monitor.jpeg" alt="">
+                <span class="title">BP Monitor</span>
+                <span class="offer">From ₹300</span>
                 <span class="desc">Buy Now!</span>
             </div>
         </div>
